@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" id="logo">
+                <h1>Logo</h1>
+            </a>
+        </div>
+        <div class="navMenu">
+            <div class="toggler">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav">
+
+                <li><a href="#" class="navLink"><i class="fa fa-home"></i><br>Home</a></li>
+                <li><a href="#" class="navLink"><i class="fas fa-bookmark"></i><br>About</a></li>
+                <li><a href="#" class="navLink"><i class="fas fa-phone"></i><br>Contact</a></li>
+
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Check In</h2>
+        <form class="form">
+            <div class="formControl">
+                <input type="text" placeholder="Username" id="username">
+                <small>Must be at least 3 characters long</small>
+            </div>
+            <div class="formControl">
+                <input type="email" placeholder="Email" id="email">
+                <small>Enter valid email</small>
+            </div>
+            <div class="submit">
+                <button type="submit">Sign in</button>
+            </div>
+            <p class="sUp" id="signUpBtn">Create Account</p>
+        </form>
+    </div>
+    <div class="container container2">
+        <h2>Sign Up</h2>
+        <form id="form2" class="form2">
+            <div class="splitForm">
+                <div class="formControl user">
+                    <input type="text" placeholder="Username" id="username">
+                    <small>Must be at least 3 characters long</small>
+                </div>
+                <div class="formControl email">
+                    <input type="email" placeholder="Email" id="email">
+                    <small>Enter valid email</small>
+                </div>
+                <div class="formControl email2">
+                    <input type="email" placeholder="Confirm Email" id="cemail">
+                    <small>Does not match</small>
+                </div>
+
+                <div class="rightside"></div>
+                <div class="formControl password">
+                    <input type="text" placeholder="Password" id="pword">
+                    <small>
+                        <li>Must be least 8 characters</li>
+                        <li>Contains 1 capital letter</li>
+                        <li>At least 1 number</li>
+                    </small>
+                </div>
+                <div class="formControl password2">
+                    <input type="text" placeholder="Confirm Password" id="pwrd2">
+                    <small>Does not match</small>
+                </div>
+                <div class="formControl aboutUser">
+                    <input type="text" placeholder="Tell us about you" id="aboutUser">
+                    <small>Does not match</small>
+                </div>
+                <div class="submit">
+                    <button type="submit">Create Account</button>
+                </div>
+            </div>
+            <button id="signInBtn">Sign In</button>
+        </form>
+    </div>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
